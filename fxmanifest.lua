@@ -10,7 +10,7 @@ lua54 'yes'
 -- A MEDIA PACK: whip's pictures, videos and map live apart from whip_core, one pack per category, so a change to one
 -- is downloaded again for that pack alone (whip_media_clothing_male/fxmanifest.lua says why). whip_core's
 -- shared/assets_index.lua (whip_core/dev/assets_index.mjs) says which pack holds what.
-whip_media_pack 'yes'   -- how whip_core's dev tools find the packs, wherever they are in [whip]
+whip_media_pack 'yes'   -- how whip_core's dev tools find the packs, wherever they are in the resources folder
 
 -- Saves pictures for whip_core (/propsnap): the same file in every media pack. Server only.
 server_script 'server.lua'
