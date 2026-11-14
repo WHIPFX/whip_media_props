@@ -26,8 +26,9 @@ When you update the pack, copy out any pictures you added before you replace the
 
 ## License
 
-The pictures are made from Grand Theft Auto V and are Rockstar Games' material, used under the Cfx.re Creator
-Platform License Agreement. WHIP's licence doesn't cover them. The code (`fxmanifest.lua`, `server.lua`) is WHIP's,
-under the GNU LGPL 3.0 (whip_core's `LICENSE`). See `NOTICE.md`, and whip_core's `NOTICE.md` for the full notice.
+The pictures are made from Grand Theft Auto V and belong to Rockstar Games: WHIP's licence doesn't cover them and
+gives no rights to them. The code (`fxmanifest.lua`, `server.lua`) is WHIP's, under the GNU LGPL 3.0: see
+`COPYING.LESSER`, and `COPYING` for the GPL 3.0 it builds on. See `NOTICE.md`, and whip_core's `NOTICE.md` for the
+full notice.
 
 WHIP is not affiliated with, endorsed or sponsored by Rockstar Games or Take-Two Interactive.
