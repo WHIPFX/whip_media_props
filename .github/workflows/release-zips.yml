@@ -1,0 +1,21 @@
+# Attaches the zips the WHIP txAdmin recipes download to each release of this resource (on GitHub, by the workflow in
+# WHIPFX/txAdmin-recipe). To redo an existing release's zips: Actions > Release zips > Run workflow, with its tag.
+name: Release zips
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: The release's tag
+        required: true
+
+jobs:
+  zips:
+    permissions:
+      contents: write
+    uses: WHIPFX/txAdmin-recipe/.github/workflows/release-zips.yml@main
+    with:
+      tag: ${{ github.event.release.tag_name || inputs.tag }}
+      dest: "./resources/[assets]/[media]/whip_media_props"
